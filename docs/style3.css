@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover {
+    color: #ddd;
+  }
+header {
+    background-color: black;
+    height: 85px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+    height: 85px;
+}
+
+.logo {
+    color: white;
+    flex: 1;
+    height: 85px;
+  
+}
+.logo img{
+    margin-top: 10px;
+    width: 128px;
+   
+}
+.location{
+    margin-left: 10px;
+  
+}
+.location,.lan{
+    color: white;
+    flex: 1;
+}
+.location span{
+    font-weight: 900;
+    color: white;
+    
+}
+.location{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 13px;
+    max-width: 900px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .select-search {
+    background: #f3f3f3;
+    width: 100px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  }
+  .search-input {
+    max-width: 800px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+  }
+  .search-icon {
+    max-width: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #febd68;
+    color: #000;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .lan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.sign-in p,
+.returns p {
+  font-size: 0.75rem;
+}
+.sign-in,
+.returns span {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart .cart-icon {
+  font-size: 2.5rem
+}
+.cart p {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.sign-in,.returns,.cart{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.banner {
+    padding: 10px 20px;
+    background: #222f3d;
+    color: #fff;
+    font-size: 0.875rem;
+  }
+ 
+  .links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+  .links a {
+    padding: 10px 0;
+  }
+.navbar {
+    background-color: #007185;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(246, 242, 242, 0.2);
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 16px;
+}
+.sign-in span{
+    
+    font-size: 15px;
+  
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 40px;
+    background-color: #007185;
+}
+
+.container h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.container p {
+    color: white;
+    font-size: 16px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 0;
+    background-color: #007185;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+   
+    align-items: center;
+    gap: 10px;
+}
+
+.box img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.box p {
+    margin: 0;
+    color:black;
+    font: bolder;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+  }
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    background: #232f3e;
+  }
+  .footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+  }
+  .footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  .footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+  }
+  .footer-items li a:hover {
+    text-decoration: underline;
+  }
+  .deliver{
+    font-size: 10px;
+  }
+  .z {
+    z-index: 10;
+    box-shadow: 0px 4px 8px #007185;
+    margin-bottom: 1px;
+    padding:0px 10px ;
+}
+.search-container {
+  background-color: white;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  padding: 20px 50px;
+
+}
+.search-container div{
+  width:100%;
+
+}
+.search-container h2 {
+  color: black;
+  text-align: left;
+}
+
+.search-container input[type="search"] {
+  width: 100%;
+  padding: 5px; /* Adjust padding to make room for the icon */
+  margin-top: 10px;
+  border-radius: 5px;
+  position: relative; /* Add this line */
+  background: url('magnifying-glass-solid.svg') no-repeat 5px 50%;
+  background-position: 5px 50%; /* Position the icon */
+  background-size: 20px 20px; /* Size the icon */
+}
+
+.search-container input[type="search"]::placeholder {
+  padding-left: 30px; /* Add padding to the placeholder */
+}
+.help-container {
+  width: 100%;
+  padding: 0px;
+
+}
+
+.help-container h2 ,.search-container h2 {
+  color: black;
+  text-align: left;
+ 
+}
+
+
+.row {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 18%; /* This will make the sidebar take up 35% of the width */
+  padding: 10px;
+}
+.sidebar h2{
+  margin-bottom: 10px;
+}
+.sidebar-button {
+  background-color: #007185;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px; /* This will make the buttons rounded */
+}
+
+.tracking {
+  flex: 1; /* This will make the tracking div take up the remaining space */
+  padding: 10px;
+}
+.tracking {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* This will create two columns of equal width */
+  gap: 10px; /* This will create a gap between the grid items */
+  padding: 60px;
+}
+.tracking-item {
+  border: 1px solid grey; /* This will create a grey outline */
+  background-color: white; /* This will set the background color to white */
+  padding: 10px;
+  transition: background-color 0.3s ease; /* This will animate the color change */
+}
+
+.tracking-item:hover {
+  background-color: lightgrey; /* This will change the background color on hover */
+}
+
+.sidebar-button-alt {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 20px; /* This will make the buttons rounded */
+  font-weight: bold; /* This will make the font bold */
+}

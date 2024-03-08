@@ -1,0 +1,127 @@
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: white;
+}
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.new-user-container { /* Modify this block */
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.line { /* Add this block */
+    flex-grow: 1;
+    border-top: 1px solid black;
+}
+
+.new-user-text { /* Modify this block */
+    margin: 0 10px;
+}
+
+.signin-container h1,
+.new-user-text {
+    align-self: flex-start;
+}
+
+#email {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.signin-button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.light-line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+.agreement {
+    color: gray;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: blue;
+}
+
+.help-link, .business-link {
+    color: blue;
+    text-decoration: none;
+    align-self: flex-start;
+}
+.transparent-button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+footer {
+    background-color:gray;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    translate: transform(-50%, -50%);
+    
+   
+}
+
+.footer-container a {
+    color: blue;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
